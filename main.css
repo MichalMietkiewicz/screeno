@@ -1,17 +1,20 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.main-section{
+
+.hero-section {
     height: 800px;
     background-color: #141516;
 }
-.main-content{
+
+.hero-content {
     width: 1140px;
     margin: auto;
     
 }
-.main-nav{
+
+.hero-nav {
     padding-top: 34px;
     display: flex;
     align-items: center; 
@@ -24,27 +27,32 @@ body{
     /* justify-content: space-between; */
 
 }
-.main-logo{
+
+.hero-logo {
     cursor: pointer;
     margin-right: 96px;
 }
-.main-nav-ul{
+
+.hero-nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     /* margin-right: 800px; */
 }
-.main-nav-li{
+
+.hero-nav-link {
     display: inline-block;
     margin-right: 80px;
     cursor: pointer;
     transition: all 500ms; 
 }
-.main-nav-li:hover{
+
+.hero-nav-link:hover {
     color: #006AFF;
     
 }
-.main-nav-right{
+
+.hero-nav-right { 
     margin-left: 230px;
     margin-top: 0;
     margin-bottom: 0;
@@ -54,13 +62,15 @@ body{
     position: absolute; */
     
 }
-.right-li{
+
+.right-link {
     cursor: pointer;
     display: inline-block;
      margin-left: 70px; 
     
-}  
-.main-right-button{
+}
+
+.hero-right-button {
     background: #006AFF;
     width: 165px;
     position: absolute;
@@ -73,8 +83,9 @@ body{
     border: 0;
     cursor: pointer;
     top: 20px;
-}      
-.main-header{
+}
+
+.hero-header {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 700;
@@ -84,7 +95,8 @@ body{
     position: absolute;
     width: 500px;
 }
-.main-p{
+
+.hero-p {
     font-family: 'Mulish', sans-serif;
     color: white;
     width: 450px;
@@ -96,7 +108,7 @@ body{
     
 }
 
-.blue-main-btn{
+.blue-hero-btn {
     background: #006AFF;
     width: 165px;
     position: absolute;
@@ -113,7 +125,7 @@ body{
     padding-bottom: 5px;
 }
 
-.login-main-btn{
+.login-hero-btn {
     width: 165px;
     position: absolute;
     height: 40px;
@@ -129,8 +141,59 @@ body{
     top: 485px;
     cursor: pointer;
 }
-.main-img-tv{
+
+.hero-img-tv {
     position: absolute;
     top: 175px;
     margin-right: 150px;
+    right: 152px;
+    width: 543px;
+}
+
+.hero-img-phone {
+    z-index: 2;
+    position: absolute;
+    top: 275px;
+    right: 700px;
+}
+
+.hero-live {
+    position: absolute;
+    z-index: 2;
+    padding-left: 13px;
+    padding-top: 3px;
+}
+
+.live-hero-box {
+    background-color: white;
+    height: 30px;
+    width: 72px;
+    border-radius: 20px;
+    top: 155px;
+    left: 1525px;
+    position: absolute;
+}
+
+.hero-platforms-flex {
+    margin-top: 645px;
+    position: absolute;
+}
+
+.hero-platforms-list {
+    list-style-type: none;
+
+}
+
+.hero-platforms {
+    display: inline-block;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.hero-platforms:first-child {
+    margin-left: -20px;
+}
+
+.benefit-section {
+    height: 865px;
 }
