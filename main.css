@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .hero-section {
     height: 800px;
     background-color: #141516;
@@ -94,6 +98,7 @@ body {
     top: 230px;
     position: absolute;
     width: 500px;
+    margin: 0;
 }
 
 .hero-p {
@@ -195,5 +200,105 @@ body {
 }
 
 .benefit-section {
-    height: 865px;
+    justify-content: center;
+    display: flex;
 }
+
+.benefit-flex {
+    display: flex;
+    flex-direction: column;
+    width: 1140px;
+}
+
+.benefit-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #141516;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+    padding-top: 106px;
+    text-align: center;
+}
+
+.benefit-subtxt {
+    font-family: 'Mulish', sans-serif;
+    color: #141516;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 51px;
+}
+
+.benefit-cta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+
+.benefit-trial-btn {
+    background: #006AFF;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    padding: 13px 29px 13px 29px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-right: 15px;
+}
+
+.benefit-login-btn {
+    border-radius: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #141516;
+    border: 1px solid #141516;    
+    padding: 13px 29px 13px 29px;
+    min-width: 165px;
+    margin-left: 15px;
+}
+
+.benefit-list-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #141516;
+    margin: 0;
+    padding-left: 13px;
+}
+
+.benefit-list-txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #141516;
+    font-family: 'Mulish', sans-serif;
+    max-width: 230px;
+    margin-bottom: 70px;
+}
+
+.benefit-list-subtitlebox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.benefit-logo {
+}
+
+.benefits-list-box {
+    padding: 0 100px 60px 100px;
+}
+.benefit-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+

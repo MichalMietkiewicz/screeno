@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a , a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero-section {
+    background-color: #141516;
+    justify-content: center;
+    display: flex;
+
+}
+
+.hero-flex {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero-nav {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.logo-box {
+    padding-right: 60px;
+}
+
+.hero-logo {
+    cursor: pointer;
+}
+
+.nav-left-ct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.nav-right-ct {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.right-nav-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.nav-btn {
+    background: #006AFF;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    padding: 13px 29px 13px 29px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-top: -13px;
+    margin-left: 70px;
+}
