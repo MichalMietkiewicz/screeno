@@ -9,7 +9,7 @@ ul {
     padding: 0;
 }
 
-a , a:visited{
+a , a:visited {
     text-decoration: none;
     color: inherit;
 }
