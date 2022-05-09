@@ -16,7 +16,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.hero-section {
+/* .hero-section {
     height: 800px;
     background-color: #141516;
 }
@@ -37,7 +37,7 @@ hr {
     color: white;
     margin: 0;
     
-    /* justify-content: space-between; */
+
 
 }
 
@@ -50,7 +50,7 @@ hr {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* margin-right: 800px; */
+
 }
 
 .hero-nav-link {
@@ -71,8 +71,7 @@ hr {
     margin-bottom: 0;
     padding: 0;
     list-style-type: none;
-    /* left: 80%;
-    position: absolute; */
+
     
 }
 
@@ -206,7 +205,7 @@ hr {
 
 .hero-platforms:first-child {
     margin-left: -20px;
-}
+} */
 
 .benefit-section {
     justify-content: center;
@@ -290,6 +289,10 @@ hr {
     font-family: 'Mulish', sans-serif;
     max-width: 230px;
     margin-bottom: 70px;
+}
+
+.benefit-list-item{
+    min-width: 240px;
 }
 
 .benefit-list-subtitlebox {
@@ -719,3 +722,197 @@ hr {
     color: #141516;
     margin-bottom: 10px;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* a , a:visited {
+    text-decoration: none;
+    color: inherit;
+} */
+
+.hero-section {
+    background-color: #141516;
+    justify-content: center;
+    display: flex;
+
+}
+
+.hero-flex {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero-nav {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 103px;
+}
+
+.logo-box {
+    padding-right: 96px;
+}
+
+.hero-logo {
+    cursor: pointer;
+}
+
+.nav-left-ct {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.nav-right-ct {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 340px;
+
+}
+
+.right-nav-ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    margin: 0;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+}
+
+.nav-btn {
+    background: #006AFF;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    padding: 13px 29px 13px 29px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-top: -13px;
+    margin-left: 56px;
+}
+
+.hero-title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 500px;
+    margin-bottom: 0;
+    padding-top: 58px;
+    margin-top: 0;
+}
+
+.hero-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    max-width: 440px;
+    margin-bottom: 50px;
+}
+
+.hero-cta-btn {
+    background: #006AFF;
+    border-radius: 25px;
+    border: 0;
+    cursor: pointer;
+    padding: 13px 29px 13px 29px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.hero-login-cta-btn{
+    border-radius: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #fff;    
+    padding: 13px 61px 13px 61px;
+    cursor: pointer;
+    background-color: #141516;
+    /* min-width: 165px; */
+}
+
+.hero-cta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 360px;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 135px;
+}
+
+.hero-content-img {
+    position: relative;
+    padding-left: 15px;
+    padding-bottom: 35px;
+
+}
+
+
+
+.hero-img-phone {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+.hero-live-box {
+    background-color: white;
+    height: 30px;
+    width: 72px;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    top: -21px;
+    right: -21px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.hero-platforms-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 74px;
+}
+
